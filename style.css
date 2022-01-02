@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.header {
+	display: flex;
+}
+.header > ul {
+	display: flex;
+	flex: 1 0 auto;
+	justify-content: flex-end;
+	gap: 30px;
+}
+.header,
+.header2,
+.footer {
+	background-color: #1f2937;
+}
+.header > ul > li,
+.header2 > p,
+.header2 > button {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+.header > ul > li {
+	text-decoration: none;
+	list-style-type: none;
+}
+.header2 > button {
+	background-color: #3882f6;
+}
+.header2 > h1 {
+	font-size: 48px;
+	font-weight: 800;
+	color: #f9faf8;
+}
+.header > h1 {
+	color: #e5e7eb;
+}
