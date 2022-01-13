@@ -2,9 +2,6 @@
 	padding: 0;
 	margin: 0;
 	height: 100%;
-	/* left: 0; */
-	/* top: 0; */
-	/* overflow: hidden; */
 }
 body {
 	display: flex;
@@ -91,8 +88,40 @@ body {
 	height: 70px;
 	color: #1f2937;
 }
-/*! second level */
+/*!--------------- second level------------------- */
+/*? Information section TWO CHILDREN*/
+/*? Information Text Title */
+/*? Individual Images */
 .not-pH > .information {
 	display: flex;
+	flex-direction: column;
+}
+
+/*! 1st child Information Text */
+.not-pH > .information > .information-text {
+	text-align: center;
+}
+.not-pH > .information > .information-text > h1 {
+	font-size: 40px;
+	font-weight: 800;
+	padding-bottom: 20px;
+}
+/*! 2nd child Information Images */
+.not-pH > .information > .information-images {
+	display: flex;
 	justify-content: center;
+	gap: 20px;
+}
+.small-sq {
+	/*child of big square */
+	width: 85px;
+	min-height: 80px;
+	border: solid;
+	border-radius: 20px;
+	border-color: #3882f6;
+}
+.big-sq {
+	/*parent of both the small sq with border and the p element */
+	display: flex;
+	flex-direction: column;
 }
